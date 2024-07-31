@@ -1,0 +1,41 @@
+body, html, #app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.gameBox {
+  text-align: center;
+}
+
+.game {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.square{
+  background-color: aqua;
+}
+.circle{
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+.triangle{
+  width: 0!important;
+   height: 0!important;
+   border-left: 25px solid transparent;
+   border-right: 25px solid transparent; 
+   border-bottom: 50px solid bisque
+}
+.hexagon{
+   background-color:chartreuse;
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%)
+}
